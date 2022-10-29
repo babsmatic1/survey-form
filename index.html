@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="hone">CapacityBay Survey Form</h1>
+    <p class="p">Thanks you for taking the form to help us improve the platform</p><br>
+
+    <div class="container">
+        <form action="mailto:abdullahibabatunde644@gmail.com">
+            <div class="input">
+                Name <br>
+                <input type="text" placeholder="Name"  class="fill" required><br><br>
+    
+                Email <br>
+                <input type="email" placeholder="Enter your Email"  class="fill" required><br><br>
+    
+                Age (optional)<br>
+                <input type="number" placeholder="Age" class="fill" ><br><br>
+    
+                Which Option best describes your current role?<br>
+    
+                <select name="role" required id="Select Current Role" class="fill" >
+                    <option>Select Current Role</option>
+                    <option>Student</option>
+                    <option>Full Time Job</option>
+                    <option>Full Time Learner</option>
+                    <option>Prefer Not to Say</option>
+                    <option>Other</option>
+                </select> <br><br>
+    
+                Would you recommend CapacityBay to a friend?<br>
+                <input type="radio" name="Would you recommend CapacityBay to a friend?">Definitely <br>
+                <input type="radio" name="Would you recommend CapacityBay to a friend?" >Maybe<br>
+                <input type="radio" name="Would you recommend CapacityBay to a friend?" >Not Sure<br><br>
+    
+                What is your favourite features of CapacityBay?<br>
+    
+                <select name="role" id="Select Current Role" required class="fill">
+                    <option>Challenges</option>
+                    <option>Select an option</option>
+                    <option>Projects</option>
+                    <option>Community</option>
+                    <option>Open Source</option>
+                </select> <br><br>
+    
+                What will you like to see improved? (check all that apply)<br>
+                <br><input type="checkbox" required  >
+                Front-end Projects
+    
+                <br><input type="checkbox">
+                Back-end Projects
+    
+                <br><input type="checkbox">
+                Data-Visualization
+    
+                <br><input type="checkbox">
+                Challenges
+    
+                <br><input type="checkbox">
+                Open Source Community
+    
+                <br><input type="checkbox">
+                Gitter help rooms
+    
+                <br><input type="checkbox">
+                Videos
+    
+                <br><input type="checkbox">
+                City Meetups
+    
+                <br><input type="checkbox">
+                Wiki
+    
+                <br><input type="checkbox">
+                Forum
+    
+                <br><input type="checkbox">
+                Additional Courses <br><br>
+    
+                Any Comments or Suggestions? <br>
+                <textarea id="Col 30"  rows="10" class="fill1" placeholder="Enter your comment here..."></textarea><br><br>
+    
+                <button class="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
